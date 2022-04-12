@@ -56,14 +56,14 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # appdev gems
+gem 'devise'
 group :development do
-  gem 'activeadmin'
+  # gem 'activeadmin'
   gem 'annotate'
   gem 'awesome_print'
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'bullet'
-  gem 'devise'
   gem 'draft_generators', github: 'firstdraft/draft_generators', branch: 'winter-2020'
   gem 'faker'
   gem 'pry-rails'
